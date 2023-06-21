@@ -62,7 +62,7 @@ const SinglePage = () => {
                   )
                 })}
               </div>
-              <img src={item.cover} alt='' />
+              <img src={item.cover} alt="hii" style={{ width: "800px" }} />
               {item.desc.map((val) => (
                 <p>{val.para3}</p>
               ))}

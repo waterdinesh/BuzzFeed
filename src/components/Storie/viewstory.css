@@ -14,14 +14,3 @@
   .viewleft p{
     padding:10px 40px;
    }
-   @media screen and (max-width: 768px) {
-   .sideContent{
-    display: none;
-   }
-   
-   .viewleftimg{
-    width: 100px;
-   }
-   
-   
-  }

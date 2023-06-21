@@ -104,10 +104,4 @@
     grid-row-start: 15;
     grid-row-end: 20;
   }
-  .hero .box:nth-child(1) h1 {
-    font-size: 18px;
-  }
 }
-
-
-

@@ -5,6 +5,7 @@ import Heading from "../../../common/heading/Heading"
 import { gallery } from "../../../../dummyData"
 import Tpost from "../Tpost/Tpost"
 import SocialMedia from "../social/SocialMedia"
+import sidebannerimg from '../../../../images/sidebar-banner-new.jpg'
 
 //const allCat = [...new Set(popular.map((curEle) => curEle.catgeory))]
 //console.log(allCat)
@@ -37,7 +38,8 @@ const Side = () => {
       </section>
 
       <section className='banner'>
-        <img src='./images/sidebar-banner-new.jpg' alt='' className="bannerimg" />
+        {/* <img src='./images/sidebar-banner-new.jpg' alt='' className="bannerimg" /> */}
+        <img src={sidebannerimg} alt='' className="bannerimg" />
       </section>
 
       <Tpost />
